@@ -3,7 +3,7 @@
 这是一个实验性的本地 Microsoft Remote Desktop / Windows App 兼容层，用来让 RDP 流量通过 SOCKS5 代理出站。让RDP通过例如Clash等加密代理连接，避免需要暴露RDP端口带来的破解或安全风险。
 
 ## 快速使用
-- 下载：[Download latest version]()
+- 下载：[下载最新版](https://github.com/OnionJuice/RDP_Gateway/releases/download/v1.0.0/RDP.Gateway_v1.0.0.zip)
 - 将RDP Gateway 复制到 应用程序目录，如果遇到“无法验证开发者” 则执行
 ```shell
 xattr -dr com.apple.quarantine "/Applications/RDP Gateway.app"

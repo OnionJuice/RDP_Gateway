@@ -6,7 +6,7 @@ This is an experimental local compatibility layer for Microsoft Remote Desktop /
 
 ## Quick Start
 
-* [Download latest version]()
+* [Download latest version](https://github.com/OnionJuice/RDP_Gateway/releases/download/v1.0.0/RDP.Gateway_v1.0.0.zip)
 * Copy **RDP Gateway** to the **Applications** folder. If you encounter the message “cannot verify the developer”, run the following commands:
 ```shell
 xattr -dr com.apple.quarantine "/Applications/RDP Gateway.app"
