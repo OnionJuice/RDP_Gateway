@@ -1,0 +1,22 @@
+[gateway]
+listen_host = "127.0.0.1"
+listen_port = 9443
+username = "rdg"
+password = "change-me"
+cert_file = "certs/localhost.pem"
+key_file = "certs/localhost-key.pem"
+read_timeout_seconds = 20
+
+[socks5]
+host = "127.0.0.1"
+port = 1080
+connect_timeout_seconds = 20
+
+[logging]
+level = "INFO"
+
+[app]
+start_gateway_on_launch = false
+launch_at_login = false
+keep_in_menu_bar = false
+language = "auto"

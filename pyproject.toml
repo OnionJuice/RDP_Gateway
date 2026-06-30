@@ -1,0 +1,30 @@
+[project]
+name = "rdp-gateway"
+version = "0.1.0"
+description = "Experimental local RDP gateway shim that forwards RDP traffic through SOCKS5."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "PyQt6>=6.7.0",
+    "tomli>=2.0.1; python_version < '3.11'",
+    "tomli-w>=1.0.0",
+]
+
+[project.optional-dependencies]
+ntlm = [
+    "pyspnego>=0.11.0",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.10.0",
+    "pytest>=8.0.0",
+]
+
+[project.scripts]
+rdp-gateway = "rdp_gateway.cli:main"
+rdp-gateway-gui = "rdp_gateway.gui:main"
+
+[build-system]
+requires = ["uv_build>=0.9.0,<0.10.0"]
+build-backend = "uv_build"

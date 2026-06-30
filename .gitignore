@@ -1,0 +1,40 @@
+.venv/
+.uv-cache/
+certs/
+config.toml
+__pycache__/
+.pytest_cache/
+
+# Python caches and build outputs
+*.py[cod]
+*$py.class
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Local runtime files
+*.log
+*.pid
+*.sock
+*.pcap
+*.pcapng
+*.har
+
+# Local secrets and certificates
+*.key
+*.pem
+*.crt
+*.csr
+*.p12
+
+# Editor and OS noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
